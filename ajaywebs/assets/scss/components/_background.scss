@@ -1,0 +1,34 @@
+@use '../utils' as *;
+
+/*--
+    - Background color
+-----------------------------------------*/
+.grey-bg {
+	background: var(--tp-grey-1);
+}
+.white-bg {
+	background: var(--tp-common-white);
+}
+.black-bg {
+	background: var(--tp-common-black);
+}
+.black-bg-2 {
+	background: var(--tp-common-black-2);
+}
+.theme-bg {
+	background: var(--tp-theme-2);
+}
+.theme-bg-2 {
+	background: var(--tp-theme-1);
+}
+.sky-bg {
+	background: var(--tp-common-blue);
+}
+.yellow-bg {
+	background: var(--tp-theme-primary);
+	border-radius: 20px;
+}
+.bg-radius-none{
+    border-radius: inherit;
+}
+
