@@ -1,0 +1,32 @@
+.column{
+  flex: 0 0 auto;
+  width: 20%;
+  padding: 0 .8rem;
+}
+.item{
+  margin-top: .5rem;
+  border: 1px solid #ddd; 
+  cursor: pointer;
+  aspect-ratio: 4/5;
+  transition: .15s;
+}
+.item:hover{
+  box-shadow: 0 0 5px 10px #ddd;
+}
+.img-holder{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  display: grid;
+  place-content: center;
+  aspect-ratio: 1;
+}
+.img-holder img{
+  max-width: 70%;
+  display: block;
+  margin: auto;
+}
+.item-details{
+  padding: 0 .5rem;
+}
+.item-details *{margin: 0 0 1rem;}
